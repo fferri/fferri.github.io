@@ -301,6 +301,7 @@
                         <div id="education" class="section">
                             <h3 class="title">Education</h3>
                             <xsl:for-each select="education/item">
+                                <xsl:sort select="dates/start" order="descending" />
                                 <div id="item-edu-{position()}" class="item" data-time-range="{dates/start}-{dates/end}">
                                     <i class="fa fa-graduation-cap fa-2x"></i>
 
@@ -388,6 +389,7 @@
                                                     Projects:
                                                     <ul>
                                                         <xsl:for-each select="projects/item">
+                                                            <xsl:sort select="dates/start" order="descending" />
                                                             <li>
                                                                 <em><xsl:value-of select="name" /></em>:
                                                                 <xsl:value-of select="description" /><br/>
@@ -438,6 +440,7 @@
                                             Journals:
                                             <ul>
                                                 <xsl:for-each select="research/publications/item">
+                                                    <xsl:sort select="year" order="descending" />
                                                     <xsl:if test="@type='journal'">
                                                         <li>
                                                             <em><xsl:value-of select="title" /></em>,
@@ -456,6 +459,7 @@
                                             Conferences:
                                             <ul>
                                                 <xsl:for-each select="research/publications/item">
+                                                    <xsl:sort select="year" order="descending" />
                                                     <xsl:if test="@type='conference'">
                                                         <li>
                                                             <em><xsl:value-of select="title" /></em>,
@@ -478,6 +482,7 @@
                         <div id="work" class="section">
                             <h3 class="title">Work Experience</h3>
                             <xsl:for-each select="work-experience/item">
+                                <xsl:sort select="dates/start" order="descending" />
                                 <div id="item-work-{position()}" class="item" data-time-range="{dates/start}-{dates/end}">
                                     <i class="fa fa-cogs fa-2x"></i>
 
@@ -498,6 +503,7 @@
                                                     Projects:
                                                     <ul>
                                                         <xsl:for-each select="projects/item">
+                                                            <xsl:sort select="dates/start" order="descending" />
                                                             <li>
                                                                 <em><xsl:value-of select="name" /></em>
                                                                 <xsl:if test="size">
@@ -525,6 +531,7 @@
                         <div id="projects" class="section">
                             <h3 class="title">Projects</h3>
                             <xsl:for-each select="education/item/projects/item | work-experience/item/projects/item">
+                                <xsl:sort select="dates/start" order="descending" />
                                 <div id="item-project-{position()}" class="item" data-time-range="{dates/start}-{dates/end}">
                                     <i class="fa fa-code-fork fa-2x"></i>
                                     <h5 class="title"><xsl:value-of select="name" /></h5>
