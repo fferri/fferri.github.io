@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl" ?>
+<!DOCTYPE cv [
+    <!ENTITY Sapienza "Sapienza University of Rome" >
+    <!ENTITY IngInfo "Computer Engineering" >
+    <!ENTITY DIAG "Departament of Computer, Control and Management Engineering" >
+]>
+<cv>
+    <people>
+        <person self="true">
+            <name>
+                <first-name>Federico</first-name>
+                <last-name>Ferri</last-name>
+            </name>
+            <birth-date>1983</birth-date>
+            <nationality>Italian</nationality>
+            <languages>
+                <item>Italian: native speaker</item>
+                <item>English: fluent (spoken and written)</item>
+            </languages>
+            <title>Ph.D.</title>
+            <address>
+                <city>Rome</city>
+                <country>Italy</country>
+            </address>
+            <contact>
+                <email type="personal">federico.ferri.it@gmail.com</email>
+                <email type="work">ferri@dis.uniroma1.it</email>
+                <email type="work">federico.ferri@uniroma1.it</email>
+                <email type="work">federico@coppeliarobotics.com</email>
+                <phone type="mobile">+39 388 9520727</phone>
+            </contact>
+            <linkedin>https://www.linkedin.com/in/fferri/</linkedin>
+            <github>https://github.com/fferri</github>
+            <about>
+                I'm a Robotics and Artificial Intelligence software engineer with a passion for automation and automated reasoning.
+
+                I'm a former researcher at &DIAG;, at &Sapienza;, where I obtained my Ph.D.. The primary aim of my research was to develop a software stack for mobile robot autonomous navigation in cluttered environmenbts and difficult terrains. In my Ph.D. thesis I achieve this goal by combining heuristic path planning techniques with physics-based motion planning.
+            </about>
+        </person>
+        <person reference="true">
+            <name>
+                <first-name>Fiora</first-name>
+                <last-name>Pirri</last-name>
+            </name>
+            <title>Ph.D.</title>
+            <title>Prof.</title>
+            <role>Mayor Professor, Head of ALCOR Laboratory (Vision Perception and Learning)</role>
+            <contact>
+                <email type="work">pirri@dis.uniroma1.it</email>
+            </contact>
+        </person>
+        <person reference="true">
+            <name>
+                <first-name>Marc</first-name>
+                <last-name>Freese</last-name>
+            </name>
+            <title>Ph.D.</title>
+            <role>CEO and Development Director of Coppelia Robotics Gmbh</role>
+            <contact>
+                <email type="work">marc@coppeliarobotics.com</email>
+            </contact>
+        </person>
+        <person>
+            <name>
+                <first-name>Eugenio</first-name>
+                <last-name>Fazio</last-name>
+            </name>
+            <title>Ph.D.</title>
+            <title>Prof.</title>
+        </person>
+    </people>
+    <education>
+        <item>
+            <type>Ph.D.</type>
+            <dates>
+                <start>2013-10-01</start>
+                <end>2018-09-01</end>
+            </dates>
+            <institution>&Sapienza;</institution>
+            <topic>Artificial Intelligence and Robotics</topic>
+            <faculty>&IngInfo;</faculty>
+            <department>&DIAG;</department>
+            <thesis>
+                <title>Computing Fast Search Heuristics for Physics-based Mobile Robot Motion Planning</title>
+            </thesis>
+            <tags>
+                <tag>Mobile Robotics</tag>
+                <tag>Motion Planning</tag>
+                <tag>Path Planning</tag>
+            </tags>
+            <projects>
+                <item>
+                    <name>tvs</name>
+                    <description>Tracked vehicles motion planner based on physics-based simulation. The ODE physics engine has been used with the OMPL motion planning library, to solve a control-based motion planning problem by using rigid body simulation as state propagation.</description>
+                    <tags>
+                        <tag>C++</tag>
+                        <tag>ODE</tag>
+                        <tag>OMPL</tag>
+                        <tag>Physics Simulation</tag>
+                        <tag>Motion Planning</tag>
+                    </tags>
+                    <dates>
+                        <start>2014-11-01</start>
+                        <end>2017-10-01</end>
+                    </dates>
+                </item>
+            </projects>
+            <research-projects>
+                <item>
+                    <name>SecondHands</name>
+                    <type>EU H2020-ICT-2014-1</type>
+                    <id>643950</id>
+                    <url>http://www.secondhands.eu</url>
+                </item>
+                <item>
+                    <name>TRADR</name>
+                    <full-name>Natural Human-Robot Cooperation in Dynamic Environments</full-name>
+                    <type>EU FP7 ICT</type>
+                    <id>60963</id>
+                    <url>http://www.tradr-project.eu</url>
+                </item>
+                <item>
+                    <name>NIFTI</name>
+                    <full-name>Natural Human-Robot Cooperation in Dynamic Environments</full-name>
+                    <type>EU FP7 ICT</type>
+                    <id>247870</id>
+                    <url>http://www.nifti.eu</url>
+                </item>
+            </research-projects>
+            <summer-schools>
+                <item>
+                    <name>MLSS</name>
+                    <full-name>Machine Learning Summer School</full-name>
+                    <year>2015</year>
+                    <location>Kyoto, Japan</location>
+                </item>
+                <item>
+                    <name>RegML</name>
+                    <full-name>Regularization Methods for Machine Learning</full-name>
+                    <year>2014</year>
+                    <location>Genova, Italy</location>
+                </item>
+                <item>
+                    <name>ReaRW</name>
+                    <full-name>Reasoning in the Robot World</full-name>
+                    <year>2014</year>
+                    <location>Prague, Czech Republic</location>
+                </item>
+                <item>
+                    <name>Xperience</name>
+                    <full-name>Robots Bootstrapped Through Learning From Experience</full-name>
+                    <year>2013</year>
+                    <location>Palma de Mallorca, Spain</location>
+                </item>
+            </summer-schools>
+            <teaching-experience>
+                <item>
+                    <type>T.A.</type>
+                    <class>Quantitative Methods for Computer Science</class>
+                    <institution>&Sapienza;</institution>
+                    <department>&DIAG;</department>
+                    <tags>
+                        <tag>Probability</tag>
+                        <tag>Statistics</tag>
+                        <tag>Sampling</tag>
+                    </tags>
+                    <year>2013, 2015</year>
+                </item>
+            </teaching-experience>
+        </item>
+        <item>
+            <type>M.Sc.</type>
+            <dates>
+                <start>2011-10-01</start>
+                <end>2013-07-01</end>
+            </dates>
+            <institution>&Sapienza;</institution>
+            <topic>Artificial Intelligence and Robotics</topic>
+            <faculty>&IngInfo;</faculty>
+            <department>&DIAG;</department>
+            <grade>110/110 cum laude</grade>
+            <gpa>29.62/30</gpa>
+            <tags>
+                <tag>Artificial Intelligence</tag>
+                <tag>Automated Reasoning</tag>
+                <tag>Robotics</tag>
+                <tag>Kinematics</tag>
+                <tag>Dynamics</tag>
+                <tag>Mobile Robotics</tag>
+                <tag>Computer Vision</tag>
+                <tag>Machine Learning</tag>
+                <tag>Medical Robotics</tag>
+                <tag>Natural Language Processing</tag>
+            </tags>
+            <thesis>
+                <title>Robust Plan Execution for UGVs operating in harsh environments</title>
+            </thesis>
+            <projects>
+                <item>
+                    <name>DL-Tableau</name>
+                    <description>Interactive web-based theorem prover for Description Logic formulae</description>
+                    <dates>
+                        <start>2012-10-01</start>
+                        <end>2012-12-20</end>
+                    </dates>
+                    <tags>
+                        <tag>Java</tag>
+                        <tag>GWT</tag>
+                        <tag>Logics</tag>
+                        <tag>Description Logics</tag>
+                        <tag>Automated Reasoning</tag>
+                    </tags>
+                </item>
+            </projects>
+        </item>
+        <item>
+            <type>B.Sc.</type>
+            <dates>
+                <start>2006-10-01</start>
+                <end>2011-05-01</end>
+            </dates>
+            <institution>&Sapienza;</institution>
+            <faculty>&IngInfo;</faculty>
+            <department>&DIAG;</department>
+            <grade>105/110</grade>
+            <gpa>25.72/30</gpa>
+            <thesis>
+                <title>An embedded differential transmittance sensor for monitoring dust on solar panels</title>
+            </thesis>
+        </item>
+        <award>Fully funded 3-year Ph.D. scholarship at &DIAG;, &Sapienza;</award>
+        <award>Completed the "Percorso d'eccellenza" (namely: excellence program), a program meant for deserving students of the Master's degree, in order to endorse their study activities. Students have to carry on extra-curricular research activities, followed by a tutor. Research project title: Inferring an upper ontology from the Wikipedia graph of pages and categories, advisor: Prof. Roberto Navigli, Ph.D., (Jul 2013)</award>
+    </education>
+    <research>
+        <interests>
+            <item>cognitive robotics</item>
+            <item>symbolic planning</item>
+            <item>motion planning</item>
+            <item>simulation</item>
+            <item>machine learning</item>
+            <item>automated reasoning</item>
+            <item>programming languages</item>
+            <item>natural language processing</item>
+        </interests>
+        <publications>
+            <item type="conference">
+                <title>Terrain contact modeling and classification for ATVs</title>
+                <author>Gianni M.</author>
+                <author>Ruiz M.</author>
+                <author>Ferri, F.</author>
+                <author>Pirri, F.</author>
+                <conference>Proceedings of the  IEEE International Conference on Robotics and Automation (ICRA)</conference>
+                <year>2016</year>
+            </item>
+            <item type="conference">
+                <title>Dynamic obstacles detection and 3D map updating</title>
+                <author>Ferri, F.</author>
+                <author>Gianni M.</author>
+                <author>Menna M.</author>
+                <author>Pirri, F.</author>
+                <conference>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</conference>
+                <year>2015</year>
+            </item>
+            <item type="journal">
+                <title>Adaptive Robust 3D Trajectory Tracking for Actively Articulated Tracked Vehicles (AATVs)</title>
+                <author>Gianni M.</author>
+                <author>Ferri, F.</author>
+                <author>Menna M.</author>
+                <author>Pirri, F.</author>
+                <journal>Journal of Field Robotics</journal>
+                <year>2015</year>
+            </item>
+            <item type="conference">
+                <title>Real-Time Autonomous 3D Navigation for Tracked Vehicles in Rescue Environments</title>
+                <author>Menna M.</author>
+                <author>Gianni M.</author>
+                <author>Ferri, F.</author>
+                <author>Pirri, F.</author>
+                <conference>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</conference>
+                <year>2014</year>
+            </item>
+            <item type="conference">
+                <title>Point Cloud Segmentation and 3D Path Planning for Tracked Vehicles in Cluttered and Dynamic Environments</title>
+                <author>Ferri, F.</author>
+                <author>Gianni M.</author>
+                <author>Menna M.</author>
+                <author>Pirri, F.</author>
+                <conference>3rd Workshop on Robots in Clutter: Perception and Interaction in Clutter</conference>
+                <year>2014</year>
+            </item>
+            <item type="journal">
+                <title>Designing, developing and deploying systems to support human-robot teams in disaster response</title>
+                <author>Kruijff G.J.M.</author>
+                <et-al>
+                    <author>Janicek M.</author>
+                    <author>Keshavdas S.</author>
+                    <author>Larochelle B.</author>
+                    <author>Kruijff-Korbayova I.</author>
+                    <author>Colas F.</author>
+                    <author>Liu M.</author>
+                    <author>Pomerleau F.</author>
+                    <author>Siegwart R.</author>
+                    <author>Neerincx M.A.</author>
+                    <author>Looije R.</author>
+                    <author>Smets N.</author>
+                    <author>van Diggelen J.</author>
+                    <author>Gianni M.</author>
+                </et-al>
+                <author>Ferri, F.</author>
+                <author>Menna M.</author>
+                <author>Pirri, F.</author>
+                <et-al>
+                    <author>Worst R.</author>
+                    <author>Linder T.</author>
+                    <author>Tretyakov V.</author>
+                    <author>Surmann H.</author>
+                    <author>Svoboda T.</author>
+                    <author>Reinstein M.</author>
+                    <author>Zimmermann K.</author>
+                    <author>Petricek T.</author>
+                    <author>Hlavac V.</author>
+                </et-al>
+                <author>et al.</author>
+                <journal>Journal of Advanced Robotics</journal>
+                <year>2014</year>
+            </item>
+            <item type="conference">
+                <title>ARE: Augmented Reality Environment for Mobile Robots</title>
+                <author>Gianni M.</author>
+                <author>Ferri, F.</author>
+                <author>Pirri, F.</author>
+                <conference>Proceedings of the 14th Conference on Towards Autonomous Robotic Systems. Lecture Notes in Artificial Intelligence (Springer)</conference>
+                <year>2013</year>
+            </item>
+        </publications>
+    </research>
+    <skills>
+        <item>scientific computing</item>
+        <item>dynamic programming</item>
+        <item>Prolog</item>
+        <item>ROS</item>
+        <item>machine learning</item>
+        <item>motion planning</item>
+        <item>symbolic planning</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>Lua</item>
+        <item>Qt</item>
+        <item>OMPL</item>
+        <item>MATLAB</item>
+        <item>shell scripting</item>
+        <item>Boost</item>
+        <item>STL</item>
+        <item>OpenGL</item>
+        <item>OpenCV</item>
+        <item>PCL</item>
+        <item>Git</item>
+        <item>LaTeX</item>
+        <item>digital signal processing</item>
+    </skills>
+    <work-experience>
+        <item>
+            <title>Freelance Software Engineer</title>
+            <company>Coppelia Robotics</company>
+            <dates>
+                <start>2015-11-01</start>
+            </dates>
+            <description>Implementation of state of the art techniques for robotics as plug-ins for the V-REP simulator. Design of a build system to handle all the dependencies and subprojects that compose the V-REP suite. Development of the robotics middleware BlueZero. Unit testing.</description>
+            <tags>
+                <tag>Distributed Systems</tag>
+                <tag>C++11</tag>
+                <tag>STL</tag>
+                <tag>Boost</tag>
+                <tag>Python</tag>
+                <tag>Lua</tag>
+                <tag>CMake</tag>
+                <tag>Qt</tag>
+                <tag>ZereMQ</tag>
+                <tag>ROS</tag>
+                <tag>OMPL</tag>
+                <tag>Code Generation</tag>
+                <tag>Git</tag>
+            </tags>
+            <projects>
+                <item>
+                    <name>BlueZero</name>
+                    <size unit="LOC">23k</size>
+                    <description>A middleware with publish/subscribe and client/server based on ZeroMQ</description>
+                    <tags>
+                        <tag>ZeroMQ</tag>
+                        <tag>Qt</tag>
+                        <tag>JSON</tag>
+                    </tags>
+                    <dates>
+                        <start>2017-10-01</start>
+                        <end>2019-07-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>Stubs Generator (libPlugin)</name>
+                    <size unit="LOC">3k</size>
+                    <description>A framework tool to minimize the amount of boilerplate code needed to write when exposing C++ functions to the Lua scripting engine of the host platform.</description>
+                    <tags>
+                        <tag>Python</tag>
+                        <tag>XML</tag>
+                        <tag>XSLT</tag>
+                        <tag>Lua</tag>
+                        <tag>Code Generation</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-05-01</start>
+                        <end>2018-07-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>BlueCloud Platform</name>
+                    <size unit="LOC">2k</size>
+                    <description>A cloud platform for sharing scenes and models, and managing floating license purchase/activation, for BlueReality, a simulation platform based on V-REP.</description>
+                    <tags>
+                        <tag>Qt</tag>
+                        <tag>JSON</tag>
+                        <tag>HTML</tag>
+                        <tag>Bootstrap</tag>
+                        <tag>OAuth2</tag>
+                        <tag>REST</tag>
+                        <tag>Azure Cloud</tag>
+                    </tags>
+                    <dates>
+                        <start>2019-01-01</start>
+                        <end>2019-03-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>CustomUI plugin</name>
+                    <size unit="LOC">24k</size>
+                    <description>A plugin providing an interface to the Qt toolkit to the Lua scripting engine of V-REP, which enables users to create complex user interfaces within the host platform.</description>
+                    <tags>
+                        <tag>Qt</tag>
+                        <tag>XML</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-04-01</start>
+                        <end>2019-05-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>ROS plugin</name>
+                    <size unit="LOC">3k</size>
+                    <description>A plugin providing an interface to ROS (Robot Operating System), which enables users to interface the host platform to other ROS nodes via publishers, subscribers, service clients, service server, and parameters. Includes a code generator to interface with any ROS message.</description>
+                    <tags>
+                        <tag>ROS</tag>
+                        <tag>Python</tag>
+                        <tag>Code Generation</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-04-01</start>
+                        <end>2019-11-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>ROS2 plugin</name>
+                    <size unit="LOC">3k</size>
+                    <description>A plugin providing an interface to ROS2 (Robot Operating System version 2.0), which enables users to interface the host platform to other ROS nodes via publishers, subscribers, service clients, service server, and parameters. Includes a code generator to interface with any ROS2 message.</description>
+                    <tags>
+                        <tag>ROS2</tag>
+                        <tag>Python</tag>
+                        <tag>Code Generation</tag>
+                    </tags>
+                    <dates>
+                        <start>2019-01-01</start>
+                        <end>2019-11-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>Code Editor and REPL plugin</name>
+                    <size unit="LOC">8k</size>
+                    <description>A plugin providing a built-in code editor with advanced editing such as syntax highlighting, code completion, code inspection, and interactive Lua REPL (read-eval-print-loop) for live coding.</description>
+                    <tags>
+                        <tag>Qt</tag>
+                        <tag>Lua</tag>
+                        <tag>QScintilla</tag>
+                    </tags>
+                    <dates>
+                        <start>2018-06-01</start>
+                        <end>2019-11-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>OpenCV plugin</name>
+                    <size unit="LOC">4k</size>
+                    <description>A plugin providing OpenCV functions.</description>
+                    <tags>
+                        <tag>OpenCV</tag>
+                    </tags>
+                    <dates>
+                        <start>2017-06-01</start>
+                        <end>2019-11-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>glTF plugin</name>
+                    <size unit="LOC">1.5k</size>
+                    <description>A plugin providing glTF asset export capability.</description>
+                    <tags>
+                        <tag>glTF</tag>
+                        <tag>JSON</tag>
+                        <tag>3D graphics</tag>
+                    </tags>
+                    <dates>
+                        <start>2019-12-01</start>
+                        <end>2020-02-13</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>BlueZero plugin</name>
+                    <size unit="LOC">1k</size>
+                    <description>A plugin providing BlueZero bindings.</description>
+                    <tags>
+                        <tag>BlueZero</tag>
+                    </tags>
+                    <dates>
+                        <start>2017-10-01</start>
+                        <end>2018-12-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>OMPL motion planning plugin</name>
+                    <size unit="LOC">3k</size>
+                    <description>A plugin providing geometric motion planning facilities via the OMPL library.</description>
+                    <tags>
+                        <tag>OMPL</tag>
+                    </tags>
+                    <dates>
+                        <start>2015-11-01</start>
+                        <end>2019-05-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>Octomap plugin</name>
+                    <size unit="LOC">2k</size>
+                    <description>A plugin providing OcTree data structures computation via the Octomap library.</description>
+                    <tags>
+                        <tag>Octomap</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-02-01</start>
+                        <end>2018-12-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>surface reconstruction plugin</name>
+                    <size unit="LOC">1k</size>
+                    <description>A plugin providing surface reconstruction from point clouds.</description>
+                    <tags>
+                        <tag>CGAL</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-10-01</start>
+                        <end>2018-12-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>ICP algorithm plugin</name>
+                    <size unit="LOC">1k</size>
+                    <description>A plugin providing point cloud registration functionality via the iterative closest point algorithm.</description>
+                    <tags>
+                        <tag>ICP</tag>
+                    </tags>
+                    <dates>
+                        <start>2017-04-01</start>
+                        <end>2018-12-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>SDF plugin</name>
+                    <size unit="LOC">3k</size>
+                    <description>A plugin providing scene export to SDF format.</description>
+                    <tags>
+                        <tag>SDF</tag>
+                        <tag>XML</tag>
+                    </tags>
+                    <dates>
+                        <start>2016-06-01</start>
+                        <end>2019-05-01</end>
+                    </dates>
+                </item>
+            </projects>
+        </item>
+        <item>
+            <title>Robotics Engineer &amp; Researcher</title>
+            <company>ALCOR Laboratory (&Sapienza;)</company>
+            <dates>
+                <start>2014-06-01</start>
+                <end>2016-02-01</end>
+            </dates>
+            <description>Motion planning for mobile robots by numerical rigid body simulation, using the Open Dynamics Engine (ODE) library. Autonomous mapping and navigation for mobile robots operating in dynamic cluttered environments. Algorithms for map updating in spherical voxel space and euclidean voxel space.</description>
+            <tags>
+                <tag>Artificial Intelligence</tag>
+                <tag>Robotics</tag>
+                <tag>Path Planning</tag>
+                <tag>ROS</tag>
+                <tag>Python</tag>
+                <tag>C++</tag>
+                <tag>STL</tag>
+                <tag>Boost</tag>
+                <tag>ODE</tag>
+                <tag>OMPL</tag>
+                <tag>Point Clouds</tag>
+                <tag>Computational Geometry</tag>
+                <tag>Linux</tag>
+                <tag>LaTeX</tag>
+            </tags>
+            <projects>
+                <item>
+                    <name>octomap_path_planner</name>
+                    <description>Path planning and autonomous exploration algorithms for mobile robots in 3D terrain represented as octree using the Octomap library.</description>
+                    <tags>
+                        <tag>C++</tag>
+                        <tag>Boost</tag>
+                        <tag>ROS</tag>
+                        <tag>Octomap</tag>
+                    </tags>
+                    <dates>
+                        <start>2015-03-01</start>
+                        <end>2015-04-01</end>
+                    </dates>
+                </item>
+                <item>
+                    <name>PyGolog</name>
+                    <description>Implementation of the GOLOG agent programming language in modern Python (using recursive generators).</description>
+                    <tags>
+                        <tag>Python</tag>
+                        <tag>Agent Programming</tag>
+                        <tag>Automata</tag>
+                        <tag>Transition Systems</tag>
+                    </tags>
+                    <dates>
+                        <start>2014-01-01</start>
+                        <end>2014-12-01</end>
+                    </dates>
+                </item>
+            </projects>
+        </item>
+        <item>
+            <title>Freelance Software Engineer</title>
+            <company>TreeTag s.r.l.</company>
+            <dates>
+                <start>2011-09-01</start>
+                <end>2014-05-01</end>
+            </dates>
+            <description>Development and deployment of various sensor networks. Development of frontend apps and backend service for data logging.</description>
+            <tags>
+                <tag>C</tag>
+                <tag>C#</tag>
+                <tag>SQL</tag>
+                <tag>Java</tag>
+            </tags>
+        </item>
+        <item>
+            <title>Systems Integrator</title>
+            <company>ANRITSU s.p.a.</company>
+            <dates>
+                <start>2007-06-01</start>
+                <end>2009-05-01</end>
+            </dates>
+            <description>Customization and deployment of custom Data Warehouse Linux platform based on RHEL. Automated deployment of Oracle, SAP software products. Testing of Data Warehouse components.</description>
+            <tags>
+                <tag>Unix</tag>
+                <tag>Linux</tag>
+                <tag>RHEL</tag>
+                <tag>Shell Scripting</tag>
+                <tag>Anaconda</tag>
+                <tag>Bash</tag>
+                <tag>Tcl</tag>
+                <tag>Python</tag>
+            </tags>
+        </item>
+        <item>
+            <title>Web Developer</title>
+            <company>Milestone Consultants s.r.l.</company>
+            <dates>
+                <start>2004-10-01</start>
+                <end>2006-08-01</end>
+            </dates>
+            <tags>
+                <tag>PHP</tag>
+                <tag>MySQL</tag>
+                <tag>Linux</tag>
+                <tag>Apache</tag>
+            </tags>
+        </item>
+    </work-experience>
+</cv>
