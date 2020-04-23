@@ -381,7 +381,7 @@
             <dates>
                 <start>2015-11-01</start>
             </dates>
-            <description>Implementation of state of the art techniques for robotics as plug-ins for the V-REP simulator. Design of a build system to handle all the dependencies and subprojects that compose the V-REP suite. Development of the robotics middleware BlueZero. Unit testing.</description>
+            <description>Implementation of state of the art techniques for robotics as plug-ins for the CoppeliaSim simulator. Design of a build system to handle all the dependencies and subprojects that compose the CoppeliaSim suite. Development of the robotics middleware BlueZero. Unit testing.</description>
             <tags>
                 <tag>Distributed Systems</tag>
                 <tag>C++</tag>
@@ -434,7 +434,7 @@
                 <item>
                     <name>BlueCloud Platform</name>
                     <size unit="LOC">2k</size>
-                    <description>A cloud platform for sharing scenes and models, and managing floating license purchase/activation, for BlueReality, a simulation platform based on V-REP.</description>
+                    <description>A cloud platform for sharing scenes and models, and managing floating license purchase/activation, for BlueReality, a simulation platform based on CoppeliaSim.</description>
                     <tags>
                         <tag>Qt</tag>
                         <tag>JSON</tag>
@@ -452,7 +452,7 @@
                 <item>
                     <name>CustomUI plugin</name>
                     <size unit="LOC">24k</size>
-                    <description>A plugin providing an interface to the Qt toolkit to the Lua scripting engine of V-REP, which enables users to create complex user interfaces within the host platform.</description>
+                    <description>A plugin providing an interface to the Qt toolkit to the Lua scripting engine of CoppeliaSim, which enables users to create complex user interfaces within the host platform.</description>
                     <tags>
                         <tag>Qt</tag>
                         <tag>XML</tag>
