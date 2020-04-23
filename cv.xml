@@ -401,6 +401,20 @@
             </tags>
             <projects>
                 <item>
+                    <name>-</name>
+                    <description>Undisclosed project</description>
+                    <tags>
+                        <tag>C++</tag>
+                        <tag>Qt</tag>
+                        <tag>QML</tag>
+                        <tag>QtQuick</tag>
+                        <tag>Qt3D</tag>
+                    </tags>
+                    <dates>
+                        <start>2019-12-01</start>
+                    </dates>
+                </item>
+                <item>
                     <name>BlueZero</name>
                     <size unit="LOC">23k</size>
                     <description>A middleware with publish/subscribe and client/server based on ZeroMQ</description>
