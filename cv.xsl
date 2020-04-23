@@ -537,6 +537,12 @@
 
                                     <xsl:value-of select="description" />
 
+                                    <xsl:if test="url">
+                                        <div>
+                                            <i class="fa fa-external-link"></i><xsl:text> </xsl:text><a href="{url}"><xsl:value-of select="url" /></a>
+                                        </div>
+                                    </xsl:if>
+
                                     <xsl:apply-templates select="tags" />
                                 </div>
                             </xsl:for-each>

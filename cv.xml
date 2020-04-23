@@ -104,6 +104,7 @@
                         <start>2014-11-01</start>
                         <end>2017-10-01</end>
                     </dates>
+                    <url>https://github.com/fferri/tvs</url>
                 </item>
             </projects>
             <research-projects>
@@ -224,6 +225,7 @@
                         <tag>Description Logics</tag>
                         <tag>Automated Reasoning</tag>
                     </tags>
+                    <url>https://github.com/fferri/dl-tableau</url>
                 </item>
             </projects>
         </item>
@@ -410,6 +412,7 @@
                         <start>2017-10-01</start>
                         <end>2019-07-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/bluezero</url>
                 </item>
                 <item>
                     <name>Stubs Generator (libPlugin)</name>
@@ -426,6 +429,7 @@
                         <start>2016-05-01</start>
                         <end>2018-07-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/libPlugin</url>
                 </item>
                 <item>
                     <name>BlueCloud Platform</name>
@@ -457,6 +461,7 @@
                         <start>2016-04-01</start>
                         <end>2019-05-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtCustomUI</url>
                 </item>
                 <item>
                     <name>ROS plugin</name>
@@ -471,6 +476,7 @@
                         <start>2016-04-01</start>
                         <end>2019-11-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtROSInterface</url>
                 </item>
                 <item>
                     <name>ROS2 plugin</name>
@@ -485,6 +491,7 @@
                         <start>2019-01-01</start>
                         <end>2019-11-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtROS2Interface</url>
                 </item>
                 <item>
                     <name>Code Editor and REPL plugin</name>
@@ -499,6 +506,7 @@
                         <start>2018-06-01</start>
                         <end>2019-11-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtCodeEditor</url>
                 </item>
                 <item>
                     <name>OpenCV plugin</name>
@@ -511,6 +519,7 @@
                         <start>2017-06-01</start>
                         <end>2019-11-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtImage</url>
                 </item>
                 <item>
                     <name>glTF plugin</name>
@@ -525,6 +534,7 @@
                         <start>2019-12-01</start>
                         <end>2020-02-13</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtGLTF</url>
                 </item>
                 <item>
                     <name>BlueZero plugin</name>
@@ -537,6 +547,7 @@
                         <start>2017-10-01</start>
                         <end>2018-12-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtBlueZero</url>
                 </item>
                 <item>
                     <name>OMPL motion planning plugin</name>
@@ -549,6 +560,7 @@
                         <start>2015-11-01</start>
                         <end>2019-05-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtOMPL</url>
                 </item>
                 <item>
                     <name>Octomap plugin</name>
@@ -561,6 +573,7 @@
                         <start>2016-02-01</start>
                         <end>2018-12-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtOctomap</url>
                 </item>
                 <item>
                     <name>surface reconstruction plugin</name>
@@ -573,6 +586,7 @@
                         <start>2016-10-01</start>
                         <end>2018-12-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtSurfaceReconstruction</url>
                 </item>
                 <item>
                     <name>ICP algorithm plugin</name>
@@ -585,6 +599,7 @@
                         <start>2017-04-01</start>
                         <end>2018-12-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtICP</url>
                 </item>
                 <item>
                     <name>SDF plugin</name>
@@ -598,6 +613,7 @@
                         <start>2016-06-01</start>
                         <end>2019-05-01</end>
                     </dates>
+                    <url>https://github.com/CoppeliaRobotics/simExtSDF</url>
                 </item>
             </projects>
         </item>
@@ -639,6 +655,7 @@
                         <start>2015-03-01</start>
                         <end>2015-04-01</end>
                     </dates>
+                    <url>https://github.com/fferri/octomap_path_planner</url>
                 </item>
                 <item>
                     <name>PyGolog</name>
@@ -653,6 +670,7 @@
                         <start>2014-01-01</start>
                         <end>2014-12-01</end>
                     </dates>
+                    <url>https://github.com/fferri/pygolog</url>
                 </item>
             </projects>
         </item>
