@@ -419,6 +419,7 @@
                     <size unit="LOC">23k</size>
                     <description>A middleware with publish/subscribe and client/server based on ZeroMQ</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>ZeroMQ</tag>
                         <tag>Qt</tag>
                         <tag>JSON</tag>
@@ -451,6 +452,7 @@
                     <size unit="LOC">2k</size>
                     <description>A cloud platform for sharing scenes and models, and managing floating license purchase/activation, for BlueReality, a simulation platform based on CoppeliaSim.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>Qt</tag>
                         <tag>JSON</tag>
                         <tag>HTML</tag>
@@ -469,6 +471,7 @@
                     <size unit="LOC">24k</size>
                     <description>A plugin providing an interface to the Qt toolkit to the Lua scripting engine of CoppeliaSim, which enables users to create complex user interfaces within the host platform.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>Qt</tag>
                         <tag>XML</tag>
                     </tags>
@@ -483,6 +486,7 @@
                     <size unit="LOC">3k</size>
                     <description>A plugin providing an interface to ROS (Robot Operating System), which enables users to interface the host platform to other ROS nodes via publishers, subscribers, service clients, service server, and parameters. Includes a code generator to interface with any ROS message.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>ROS</tag>
                         <tag>Python</tag>
                         <tag>Code Generation</tag>
@@ -498,6 +502,7 @@
                     <size unit="LOC">3k</size>
                     <description>A plugin providing an interface to ROS2 (Robot Operating System version 2.0), which enables users to interface the host platform to other ROS nodes via publishers, subscribers, service clients, service server, and parameters. Includes a code generator to interface with any ROS2 message.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>ROS2</tag>
                         <tag>Python</tag>
                         <tag>Code Generation</tag>
@@ -513,6 +518,7 @@
                     <size unit="LOC">8k</size>
                     <description>A plugin providing a built-in code editor with advanced editing such as syntax highlighting, code completion, code inspection, and interactive Lua REPL (read-eval-print-loop) for live coding.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>Qt</tag>
                         <tag>Lua</tag>
                         <tag>QScintilla</tag>
@@ -528,6 +534,7 @@
                     <size unit="LOC">4k</size>
                     <description>A plugin providing OpenCV functions.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>OpenCV</tag>
                     </tags>
                     <dates>
@@ -541,6 +548,7 @@
                     <size unit="LOC">1.5k</size>
                     <description>A plugin providing glTF asset export capability.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>glTF</tag>
                         <tag>JSON</tag>
                         <tag>3D graphics</tag>
@@ -556,6 +564,7 @@
                     <size unit="LOC">1k</size>
                     <description>A plugin providing BlueZero bindings.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>BlueZero</tag>
                     </tags>
                     <dates>
@@ -569,6 +578,7 @@
                     <size unit="LOC">3k</size>
                     <description>A plugin providing geometric motion planning facilities via the OMPL library.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>OMPL</tag>
                     </tags>
                     <dates>
@@ -582,6 +592,7 @@
                     <size unit="LOC">2k</size>
                     <description>A plugin providing OcTree data structures computation via the Octomap library.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>Octomap</tag>
                     </tags>
                     <dates>
@@ -595,6 +606,7 @@
                     <size unit="LOC">1k</size>
                     <description>A plugin providing surface reconstruction from point clouds.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>CGAL</tag>
                     </tags>
                     <dates>
@@ -608,6 +620,7 @@
                     <size unit="LOC">1k</size>
                     <description>A plugin providing point cloud registration functionality via the iterative closest point algorithm.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>ICP</tag>
                     </tags>
                     <dates>
@@ -621,6 +634,7 @@
                     <size unit="LOC">3k</size>
                     <description>A plugin providing scene export to SDF format.</description>
                     <tags>
+                        <tag>C++</tag>
                         <tag>SDF</tag>
                         <tag>XML</tag>
                     </tags>
