@@ -312,19 +312,19 @@
                                         </xsl:if>
                                     </h5>
 
-                                    <div>
-                                        <i class="fa fa-calendar"></i><xsl:text> </xsl:text><span class="dates"><xsl:value-of select="dates/start" /> - <xsl:value-of select="dates/end" /></span>
-                                        <xsl:if test="grade">
-                                            &#183; Grade: <xsl:value-of select="grade" />
-                                        </xsl:if>
-                                        <xsl:if test="gpa">
-                                            &#183; GPA: <xsl:value-of select="gpa" />
-                                        </xsl:if>
-                                    </div>
+                                    <xsl:apply-templates select="dates" />
 
                                     <div>
                                         <i class="fa fa-university"></i><xsl:text> </xsl:text><xsl:value-of select="department" /> at <xsl:value-of select="institution" />
                                     </div>
+
+                                    <xsl:if test="grade or gpa">
+                                        <div>
+                                            <xsl:if test="grade">Grade: <xsl:value-of select="grade" /></xsl:if>
+                                            <xsl:if test="grade and gpa"> &#183; </xsl:if>
+                                            <xsl:if test="gpa">GPA: <xsl:value-of select="gpa" /></xsl:if>
+                                        </div>
+                                    </xsl:if>
 
                                     <div>
                                         Thesis: <em><xsl:value-of select="thesis/title" /></em>
@@ -483,9 +483,7 @@
 
                                     <h5 class="title"><xsl:value-of select="title"/> &#183; <xsl:value-of select="company" /></h5>
 
-                                    <div>
-                                        <i class="fa fa-calendar"></i><xsl:text> </xsl:text><span class="dates"><xsl:value-of select="dates/start" /> - <xsl:value-of select="dates/end" /></span>
-                                    </div>
+                                    <xsl:apply-templates select="dates" />
 
                                     <xsl:if test="description">
                                         <div>
@@ -506,8 +504,6 @@
                                                                     [<xsl:value-of select="size" /><xsl:value-of select="size/@unit" />]
                                                                 </xsl:if>:
                                                                 <xsl:value-of select="description" />
-                                                                (<xsl:value-of select="dates/start" /> -
-                                                                <xsl:value-of select="dates/end" />)
 
                                                                 <xsl:apply-templates select="tags" />
                                                             </li>
@@ -533,7 +529,7 @@
                                     <i class="fa fa-code-fork fa-2x"></i>
                                     <h5 class="title"><xsl:value-of select="name" /></h5>
 
-                                    <div><i class="fa fa-calendar"></i><xsl:text> </xsl:text><span class="dates"><xsl:value-of select="dates/start" /> - <xsl:value-of select="dates/end" /></span></div>
+                                    <xsl:apply-templates select="dates" />
 
                                     <xsl:value-of select="description" />
 
@@ -647,6 +643,15 @@
                             }, 1000)
                         })
                 })
+
+                $('.date').each(function(i,e) {
+                    if($(e).text() == '')
+                        $(e).text('Now')
+                    else {
+                        var d = new Date($(e).text())
+                        $(e).text(d.toLocaleString('default', {month: 'short'}) + ' ' + d.getFullYear())
+                    }
+                })
                 ]]></script>
             </body>
         </html>
@@ -661,5 +666,15 @@
     <xsl:template match="tags/tag">
         <a href="#" class="badge badge-pill badge-secondary tag"><xsl:value-of select="." /></a>
         <xsl:text> </xsl:text>
+	</xsl:template>
+
+    <xsl:template match="dates">
+        <div class="dates">
+            <i class="fa fa-calendar"></i>
+            <xsl:text> </xsl:text>
+            <span class="date"><xsl:value-of select="start" /></span>
+            <xsl:text> - </xsl:text>
+            <span class="date"><xsl:value-of select="end" /></span>
+        </div>
 	</xsl:template>
 </xsl:stylesheet>
