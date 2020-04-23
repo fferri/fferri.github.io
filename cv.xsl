@@ -255,19 +255,19 @@
                         <h3><xsl:value-of select="people/person[@self='true']/name" /></h3>
                         <hr/>
 
-                        <a href="{people/person[@self='true']/linkedin}" class="social-link" title="LinkedIn"><i class="fa fa-fw fa-lg fa-linkedin"></i></a>
-                        <a href="{people/person[@self='true']/github}" class="social-link" title="GitHub"><i class="fa fa-fw fa-lg fa-github"></i></a>
-                        <a href="mailto:{people/person[@self='true']/contact/email[@type='personal']}" class="social-link" title="E-Mail"><i class="fa fa-fw fa-lg fa-envelope"></i></a>
-                        <a href="tel:{people/person[@self='true']/contact/phone[@type='mobile']}" class="social-link" title="Mobile phone"><i class="fa fa-fw fa-lg fa-mobile-phone"></i></a>
+                        <a href="{people/person[@self='true']/linkedin}" class="contact-link" title="LinkedIn"><i class="fa fa-fw fa-lg fa-linkedin"></i></a>
+                        <a href="{people/person[@self='true']/github}" class="contact-link" title="GitHub"><i class="fa fa-fw fa-lg fa-github"></i></a>
+                        <a href="mailto:{people/person[@self='true']/contact/email[@type='personal']}" class="contact-link" title="E-Mail"><i class="fa fa-fw fa-lg fa-envelope"></i></a>
+                        <a href="tel:{people/person[@self='true']/contact/phone[@type='mobile']}" class="contact-link" title="Mobile phone"><i class="fa fa-fw fa-lg fa-mobile-phone"></i></a>
                         <span id="icon-info-text" class="px-2 d-block text-primary" style="white-space: nowrap; font-size: 70%;"></span>
                         <script><![CDATA[
-                            function socialTooltip(what) {
+                            function contactTooltip(what) {
                                 $('#icon-info-text').html(what)
                             }
-                            $('a.social-link')
-                                .mouseover(function() {socialTooltip(this.title)})
-                                .mouseout(function() {socialTooltip('&nbsp;')})
-                            socialTooltip('&nbsp;')
+                            $('a.contact-link')
+                                .mouseover(function() {contactTooltip(this.title)})
+                                .mouseout(function() {contactTooltip('&nbsp;')})
+                            contactTooltip('&nbsp;')
                         ]]></script>
 
                         <nav>
