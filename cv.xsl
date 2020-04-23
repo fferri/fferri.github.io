@@ -343,6 +343,9 @@
                                                             <li>
                                                                 <em><xsl:value-of select="name" /></em>
                                                                 (<xsl:value-of select="type" />)
+                                                                <xsl:if test="url">
+                                                                    <a href="{url}"><i class="fa fa-external-link"></i></a>
+                                                                </xsl:if>
                                                             </li>
                                                         </xsl:for-each>
                                                     </ul>
@@ -361,6 +364,9 @@
                                                                 </em>:
                                                                 <xsl:value-of select="full-name" />
                                                                 (<xsl:value-of select="location" />)
+                                                                <xsl:if test="url">
+                                                                    <a href="{url}"><i class="fa fa-external-link"></i></a>
+                                                                </xsl:if>
                                                                 <xsl:apply-templates select="tags" />
                                                             </li>
                                                         </xsl:for-each>

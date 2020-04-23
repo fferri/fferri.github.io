@@ -138,6 +138,7 @@
                     <tags>
                         <tag>Machine Learning</tag>
                     </tags>
+                    <url>http://mlss.cc</url>
                 </item>
                 <item>
                     <name>RegML</name>
@@ -148,6 +149,7 @@
                         <tag>Machine Learning</tag>
                         <tag>Statistics</tag>
                     </tags>
+                    <url>http://lcsl.mit.edu/courses/regml/regml2014/</url>
                 </item>
                 <item>
                     <name>ReaRW</name>
@@ -157,6 +159,7 @@
                     <tags>
                         <tag>Automated Reasoning</tag>
                     </tags>
+                    <url>http://summerschool2014.ciirc.cvut.cz/</url>
                 </item>
                 <item>
                     <name>Xperience</name>
@@ -166,6 +169,7 @@
                     <tags>
                         <tag>Cognitive Robotics</tag>
                     </tags>
+                    <url>https://www.xperience.org/index.php/summerschool.html</url>
                 </item>
             </summer-schools>
             <teaching-experience>
