@@ -360,6 +360,7 @@
                                                                 </em>:
                                                                 <xsl:value-of select="full-name" />
                                                                 (<xsl:value-of select="location" />)
+                                                                <xsl:apply-templates select="tags" />
                                                             </li>
                                                         </xsl:for-each>
                                                     </ul>
@@ -376,6 +377,7 @@
                                                                 (<xsl:value-of select="department" />
                                                                 at <xsl:value-of select="institution" />,
                                                                 <xsl:value-of select="year" />)
+                                                                <xsl:apply-templates select="tags" />
                                                             </li>
                                                         </xsl:for-each>
                                                     </ul>

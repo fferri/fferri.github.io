@@ -134,24 +134,37 @@
                     <full-name>Machine Learning Summer School</full-name>
                     <year>2015</year>
                     <location>Kyoto, Japan</location>
+                    <tags>
+                        <tag>Machine Learning</tag>
+                    </tags>
                 </item>
                 <item>
                     <name>RegML</name>
                     <full-name>Regularization Methods for Machine Learning</full-name>
                     <year>2014</year>
                     <location>Genova, Italy</location>
+                    <tags>
+                        <tag>Machine Learning</tag>
+                        <tag>Statistics</tag>
+                    </tags>
                 </item>
                 <item>
                     <name>ReaRW</name>
                     <full-name>Reasoning in the Robot World</full-name>
                     <year>2014</year>
                     <location>Prague, Czech Republic</location>
+                    <tags>
+                        <tag>Automated Reasoning</tag>
+                    </tags>
                 </item>
                 <item>
                     <name>Xperience</name>
                     <full-name>Robots Bootstrapped Through Learning From Experience</full-name>
                     <year>2013</year>
                     <location>Palma de Mallorca, Spain</location>
+                    <tags>
+                        <tag>Cognitive Robotics</tag>
+                    </tags>
                 </item>
             </summer-schools>
             <teaching-experience>
@@ -369,14 +382,15 @@
             <description>Implementation of state of the art techniques for robotics as plug-ins for the V-REP simulator. Design of a build system to handle all the dependencies and subprojects that compose the V-REP suite. Development of the robotics middleware BlueZero. Unit testing.</description>
             <tags>
                 <tag>Distributed Systems</tag>
-                <tag>C++11</tag>
+                <tag>C++</tag>
                 <tag>STL</tag>
                 <tag>Boost</tag>
                 <tag>Python</tag>
                 <tag>Lua</tag>
                 <tag>CMake</tag>
                 <tag>Qt</tag>
-                <tag>ZereMQ</tag>
+                <tag>QML</tag>
+                <tag>ZeroMQ</tag>
                 <tag>ROS</tag>
                 <tag>OMPL</tag>
                 <tag>Code Generation</tag>
