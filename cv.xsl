@@ -446,7 +446,7 @@
                                                                 <xsl:value-of select="." />
                                                             </xsl:for-each>
                                                             <xsl:if test="et-al">, et al.</xsl:if>
-                                                            (<xsl:value-of select="journal" /> <xsl:value-of select="year" />)
+                                                            (<xsl:value-of select="journal" /><xsl:text> </xsl:text><xsl:value-of select="year" />)
                                                         </li>
                                                     </xsl:if>
                                                 </xsl:for-each>
@@ -464,7 +464,7 @@
                                                                 <xsl:value-of select="." />
                                                             </xsl:for-each>
                                                             <xsl:if test="et-al">, et al.</xsl:if>
-                                                            (<xsl:value-of select="conference" /> <xsl:value-of select="year" />)
+                                                            (<xsl:value-of select="conference" /><xsl:text> </xsl:text><xsl:value-of select="year" />)
                                                         </li>
                                                     </xsl:if>
                                                 </xsl:for-each>
