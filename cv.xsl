@@ -292,7 +292,7 @@
                             Showing items matching
                             <span class="badge badge-pill badge-secondary">
                                 <span id="searchTerm"></span>
-                                <button type="button" class="close" aria-label="Dismiss" onclick="filterByTag()">
+                                <button type="button" class="close" aria-label="Dismiss" onclick="window.location.assign(window.location.href.split('#')[0])">
                                     <span aria-hidden="true">&#215;</span>
                                 </button>
                             </span>
@@ -626,12 +626,6 @@
                     $('#searchTerm').text(t)
                 }
 
-                $('a.tag').click(function() {
-                    filterByTag($(this).text())
-                })
-                $('a.nav-link').click(function() {
-                    filterByTag()
-                })
                 var timelineShowTimeout
                 var timelineHideTimeout
                 function showTimeline() {
@@ -665,6 +659,30 @@
                         $(e).text(d.toLocaleString('default', {month: 'short'}) + ' ' + d.getFullYear())
                     }
                 })
+
+                if("onhashchange" in window) {
+                    window.onhashchange = function() {
+                        hashChanged(window.location.hash);
+                    }
+                }
+                else {
+                    var storedHash = window.location.hash;
+                    window.setInterval(function() {
+                        if(window.location.hash != storedHash) {
+                            storedHash = window.location.hash;
+                            hashChanged(storedHash);
+                        }
+                    }, 100);
+                }
+
+                function hashChanged(h) {
+                    var s = unescape(h.split('#').pop())
+                    var stdlinks = $('a.nav-link').map(function(i,e) {return e.href.split('#').pop()}).toArray()
+                    if(stdlinks.indexOf(s) < 0) filterByTag(s)
+                    else filterByTag()
+                }
+
+                hashChanged(window.location.hash)
                 ]]></script>
             </body>
         </html>
@@ -677,7 +695,7 @@
 	</xsl:template>
 
     <xsl:template match="tags/tag">
-        <a href="#" class="badge badge-pill badge-secondary tag"><xsl:value-of select="." /></a>
+        <a href="#{.}" class="badge badge-pill badge-secondary tag"><xsl:value-of select="." /></a>
         <xsl:text> </xsl:text>
 	</xsl:template>
 
