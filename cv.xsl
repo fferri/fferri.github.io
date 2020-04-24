@@ -679,7 +679,10 @@
                 function hashChanged(h) {
                     var s = unescape(h.split('#').pop())
                     var stdlinks = $('a.nav-link').map(function(i,e) {return e.href.split('#').pop()}).toArray()
-                    if(stdlinks.indexOf(s) < 0) filterByTag(s)
+                    if(stdlinks.indexOf(s) < 0) {
+                        filterByTag(s)
+                        $(window).scrollTop(0);
+                    }
                     else filterByTag()
                 }
 
