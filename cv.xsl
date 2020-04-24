@@ -617,13 +617,14 @@
                     if(!t) {
                         $('#content').removeClass('searching')
                         $('div.item').css('display', 'block')
-                        return
                     }
-                    $('div.item').each(function(i,e) {
-                        $(e).css('display', itemHasTag(e,t) ? 'block' : 'none')
-                    })
-                    $('#content').addClass('searching')
-                    $('#searchTerm').text(t)
+                    else {
+                        $('div.item').each(function(i,e) {
+                            $(e).css('display', itemHasTag(e,t) ? 'block' : 'none')
+                        })
+                        $('#content').addClass('searching')
+                        $('#searchTerm').text(t)
+                    }
                 }
 
                 var timelineShowTimeout
