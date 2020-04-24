@@ -171,7 +171,7 @@
                     color: #666 !important;
                 }
                 .close {
-                    line-height: 0.4 !important;
+                    line-height: 0.6 !important;
                     margin-left: 0.3rem;
                     font-size: 1.2rem;
                 }
