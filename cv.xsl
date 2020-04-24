@@ -292,9 +292,9 @@
                             Showing items matching
                             <span class="badge badge-pill badge-secondary">
                                 <span id="searchTerm"></span>
-                                <button type="button" class="close" aria-label="Dismiss" onclick="window.location.assign(window.location.href.split('#')[0])">
+                                <a href="#" class="close">
                                     <span aria-hidden="true">&#215;</span>
-                                </button>
+                                </a>
                             </span>
                         </div>
 
