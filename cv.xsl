@@ -176,6 +176,21 @@
                     margin-left: 0.3rem;
                     font-size: 1.2rem;
                 }
+                @media print {
+                    .collapse {
+                        display: block !important;
+                        height: auto !important;
+                    }
+                    [data-toggle="collapse"] {
+                        display: none;
+                    }
+                    #projects {
+                        display: none;
+                    }
+                    #timeline-wrap {
+                        display: none;
+                    }
+                }
                 ]]></style>
             </head>
             <body>
