@@ -256,6 +256,7 @@
                         <h3><xsl:value-of select="people/person[@self='true']/name" /></h3>
                         <hr/>
 
+                        <div class="d-print-none">
                         <a href="{people/person[@self='true']/linkedin}" class="contact-link" title="LinkedIn"><i class="fa fa-fw fa-lg fa-linkedin"></i></a>
                         <a href="{people/person[@self='true']/github}" class="contact-link" title="GitHub"><i class="fa fa-fw fa-lg fa-github"></i></a>
                         <a href="mailto:{people/person[@self='true']/contact/email[@type='personal']}" class="contact-link" title="E-Mail"><i class="fa fa-fw fa-lg fa-envelope"></i></a>
@@ -270,8 +271,9 @@
                                 .mouseout(function() {contactTooltip('&nbsp;')})
                             contactTooltip('&nbsp;')
                         ]]></script>
+                        </div>
 
-                        <nav>
+                        <nav class="d-print-none">
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="#education" class="badge badge-pill badge-secondary nav-link" data-tag="education">Education</a>
