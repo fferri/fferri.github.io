@@ -435,6 +435,7 @@
                         <end>2019-07-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/bluezero</url>
+                    <license>Apache-2.0</license>
                 </item>
                 <item>
                     <name>Stubs Generator (libPlugin)</name>
@@ -489,6 +490,7 @@
                         <end>2019-05-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtCustomUI</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>ROS plugin</name>
@@ -507,6 +509,7 @@
                         <end>2019-11-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtROSInterface</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>ROS2 plugin</name>
@@ -525,6 +528,7 @@
                         <end>2019-11-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtROS2Interface</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>Code Editor and REPL plugin</name>
@@ -543,6 +547,7 @@
                         <end>2019-11-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtCodeEditor</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>OpenCV plugin</name>
@@ -559,6 +564,7 @@
                         <end>2019-11-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtImage</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>glTF plugin</name>
@@ -577,6 +583,7 @@
                         <end>2020-02-13</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtGLTF</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>BlueZero plugin</name>
@@ -593,6 +600,7 @@
                         <end>2018-12-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtBlueZero</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>OMPL motion planning plugin</name>
@@ -609,6 +617,7 @@
                         <end>2019-05-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtOMPL</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>Octomap plugin</name>
@@ -625,6 +634,7 @@
                         <end>2018-12-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtOctomap</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>surface reconstruction plugin</name>
@@ -641,6 +651,7 @@
                         <end>2018-12-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtSurfaceReconstruction</url>
+                    <license>LGPL-3</license>
                 </item>
                 <item>
                     <name>ICP algorithm plugin</name>
@@ -657,6 +668,7 @@
                         <end>2018-12-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtICP</url>
+                    <license>GPL-3</license>
                 </item>
                 <item>
                     <name>SDF plugin</name>
@@ -674,6 +686,7 @@
                         <end>2019-05-01</end>
                     </dates>
                     <url>https://github.com/CoppeliaRobotics/simExtSDF</url>
+                    <license>BSD</license>
                 </item>
             </projects>
         </item>
@@ -718,6 +731,7 @@
                         <end>2015-04-01</end>
                     </dates>
                     <url>https://github.com/fferri/octomap_path_planner</url>
+                    <license>BSD</license>
                 </item>
                 <item>
                     <name>PyGolog</name>
@@ -733,6 +747,7 @@
                         <end>2014-12-01</end>
                     </dates>
                     <url>https://github.com/fferri/pygolog</url>
+                    <license>BSD</license>
                 </item>
             </projects>
         </item>
