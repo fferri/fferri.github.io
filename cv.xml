@@ -4,6 +4,7 @@
     <!ENTITY Sapienza "Sapienza University of Rome" >
     <!ENTITY IngInfo "Computer Engineering" >
     <!ENTITY DIAG "Departament of Computer, Control and Management Engineering" >
+    <!ENTITY CoppeliaCompany "Coppelia Robotics GmbH" >
 ]>
 <cv>
     <people>
@@ -56,7 +57,7 @@
                 <last-name>Freese</last-name>
             </name>
             <title>Ph.D.</title>
-            <role>CEO and Development Director of Coppelia Robotics GmbH</role>
+            <role>CEO and Development Director of &CoppeliaCompany;</role>
             <contact>
                 <email type="work">marc@coppeliarobotics.com</email>
             </contact>
@@ -382,7 +383,7 @@
     <work-experience>
         <item>
             <title>Freelance Software Engineer</title>
-            <company>Coppelia Robotics GmbH</company>
+            <company>&CoppeliaCompany;</company>
             <dates>
                 <start>2015-11-01</start>
             </dates>
