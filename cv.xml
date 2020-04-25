@@ -413,6 +413,7 @@
                         <tag>QML</tag>
                         <tag>QtQuick</tag>
                         <tag>Qt3D</tag>
+                        <tag>CMake</tag>
                     </tags>
                     <dates>
                         <start>2019-12-01</start>
@@ -427,6 +428,7 @@
                         <tag>ZeroMQ</tag>
                         <tag>Qt</tag>
                         <tag>JSON</tag>
+                        <tag>CMake</tag>
                     </tags>
                     <dates>
                         <start>2017-10-01</start>
@@ -444,6 +446,7 @@
                         <tag>XSLT</tag>
                         <tag>Lua</tag>
                         <tag>Code Generation</tag>
+                        <tag>CMake</tag>
                     </tags>
                     <dates>
                         <start>2016-05-01</start>
@@ -478,6 +481,8 @@
                         <tag>C++</tag>
                         <tag>Qt</tag>
                         <tag>XML</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2016-04-01</start>
@@ -494,6 +499,8 @@
                         <tag>ROS</tag>
                         <tag>Python</tag>
                         <tag>Code Generation</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2016-04-01</start>
@@ -510,6 +517,8 @@
                         <tag>ROS2</tag>
                         <tag>Python</tag>
                         <tag>Code Generation</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2019-01-01</start>
@@ -526,6 +535,8 @@
                         <tag>Qt</tag>
                         <tag>Lua</tag>
                         <tag>QScintilla</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2018-06-01</start>
@@ -540,6 +551,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>OpenCV</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2017-06-01</start>
@@ -556,6 +569,8 @@
                         <tag>glTF</tag>
                         <tag>JSON</tag>
                         <tag>3D graphics</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2019-12-01</start>
@@ -570,6 +585,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>BlueZero</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2017-10-01</start>
@@ -584,6 +601,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>OMPL</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2015-11-01</start>
@@ -598,6 +617,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>Octomap</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2016-02-01</start>
@@ -612,6 +633,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>CGAL</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2016-10-01</start>
@@ -626,6 +649,8 @@
                     <tags>
                         <tag>C++</tag>
                         <tag>ICP</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2017-04-01</start>
@@ -641,6 +666,8 @@
                         <tag>C++</tag>
                         <tag>SDF</tag>
                         <tag>XML</tag>
+                        <tag>CMake</tag>
+                        <tag>CoppeliaSim</tag>
                     </tags>
                     <dates>
                         <start>2016-06-01</start>
@@ -673,6 +700,7 @@
                 <tag>Computational Geometry</tag>
                 <tag>Linux</tag>
                 <tag>LaTeX</tag>
+                <tag>CoppeliaSim</tag>
             </tags>
             <projects>
                 <item>
@@ -683,6 +711,7 @@
                         <tag>Boost</tag>
                         <tag>ROS</tag>
                         <tag>Octomap</tag>
+                        <tag>CMake</tag>
                     </tags>
                     <dates>
                         <start>2015-03-01</start>
