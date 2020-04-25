@@ -56,7 +56,7 @@
                 <last-name>Freese</last-name>
             </name>
             <title>Ph.D.</title>
-            <role>CEO and Development Director of Coppelia Robotics Gmbh</role>
+            <role>CEO and Development Director of Coppelia Robotics GmbH</role>
             <contact>
                 <email type="work">marc@coppeliarobotics.com</email>
             </contact>
@@ -382,7 +382,7 @@
     <work-experience>
         <item>
             <title>Freelance Software Engineer</title>
-            <company>Coppelia Robotics</company>
+            <company>Coppelia Robotics GmbH</company>
             <dates>
                 <start>2015-11-01</start>
             </dates>
@@ -724,7 +724,7 @@
         </item>
         <item>
             <title>Systems Integrator</title>
-            <company>ANRITSU s.p.a.</company>
+            <company>Anritsu s.p.a.</company>
             <dates>
                 <start>2007-06-01</start>
                 <end>2009-05-01</end>
