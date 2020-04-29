@@ -621,13 +621,6 @@
                     for(var id in b) filterItem(id, b[id])
                 }
 
-                // show tag handler:
-                $('.show-tag').each(function(i,e) {
-                    $(e).click(function() {filterItems($(e).data('tag'))})
-                })
-
-                // filterItems('education')
-
                 function itemHasTag(i,t) {
                     return $(i).find('a.tag').is(function(i,e) { return $(e).text() == t })
                 }
@@ -702,7 +695,10 @@
                         filterByTag(s)
                         $(window).scrollTop(0);
                     }
-                    else filterByTag()
+                    else {
+                        filterByTag()
+                        $(window).scrollTop($(`div[id="${s}"]`).offset().top)
+                    }
                 }
 
                 hashChanged(window.location.hash)
