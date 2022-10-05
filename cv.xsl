@@ -269,24 +269,8 @@
                             <div id="particles-js" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;"></div>
                         </div>
                         <h3><xsl:value-of select="people/person[@self='true']/name" /></h3>
-                        <hr/>
 
-                        <div class="d-print-none">
-                        <a href="{people/person[@self='true']/linkedin}" class="contact-link" title="LinkedIn"><i class="fa fa-fw fa-lg fa-linkedin"></i></a>
-                        <a href="{people/person[@self='true']/github}" class="contact-link" title="GitHub"><i class="fa fa-fw fa-lg fa-github"></i></a>
-                        <a href="mailto:{people/person[@self='true']/contact/email[@type='personal']}" class="contact-link" title="E-Mail"><i class="fa fa-fw fa-lg fa-envelope"></i></a>
-                        <a href="tel:{people/person[@self='true']/contact/phone[@type='mobile']}" class="contact-link" title="Mobile phone"><i class="fa fa-fw fa-lg fa-mobile-phone"></i></a>
-                        <span id="icon-info-text" class="px-2 d-block text-primary" style="white-space: nowrap; font-size: 70%;"></span>
-                        <script><![CDATA[
-                            function contactTooltip(what) {
-                                $('#icon-info-text').html(what)
-                            }
-                            $('a.contact-link')
-                                .mouseover(function() {contactTooltip(this.title)})
-                                .mouseout(function() {contactTooltip('&nbsp;')})
-                            contactTooltip('&nbsp;')
-                        ]]></script>
-                        </div>
+                        <hr/>
 
                         <nav id="cv-sections" class="d-print-none">
                             <ul class="list-unstyled">
@@ -304,6 +288,26 @@
                                 </li>
                             </ul>
                         </nav>
+
+                        <hr/>
+
+                        <div class="d-print-none">
+                            <div><small>Contact info:</small></div>
+                            <a href="mailto:{people/person[@self='true']/contact/email[@type='personal']}" class="contact-link" title="E-Mail"><i class="fa fa-fw fa-lg fa-envelope"></i></a>
+                            <a href="tel:{people/person[@self='true']/contact/phone[@type='mobile']}" class="contact-link" title="Mobile phone"><i class="fa fa-fw fa-lg fa-mobile-phone"></i></a>
+                            <a href="{people/person[@self='true']/linkedin}" class="contact-link" title="LinkedIn"><i class="fa fa-fw fa-lg fa-linkedin"></i></a>
+                            <a href="{people/person[@self='true']/github}" class="contact-link" title="GitHub"><i class="fa fa-fw fa-lg fa-github"></i></a>
+                            <span id="icon-info-text" class="px-2 d-block text-primary" style="white-space: nowrap; font-size: 70%;"></span>
+                            <script><![CDATA[
+                                function contactTooltip(what) {
+                                    $('#icon-info-text').html(what)
+                                }
+                                $('a.contact-link')
+                                    .mouseover(function() {contactTooltip(this.title)})
+                                    .mouseout(function() {contactTooltip('&nbsp;')})
+                                contactTooltip('&nbsp;')
+                            ]]></script>
+                        </div>
                     </div>
 
                     <div id="content" class="">
