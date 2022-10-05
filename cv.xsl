@@ -288,19 +288,19 @@
                         ]]></script>
                         </div>
 
-                        <nav class="d-print-none">
+                        <nav id="cv-sections" class="d-print-none">
                             <ul class="list-unstyled">
-                                <li>
-                                    <a href="#education" class="badge badge-pill badge-secondary nav-link" data-tag="education">Education</a>
+                                <li class="cv-section m-3">
+                                    <a href="#education" class="nav-link" data-tag="education"><i class="fa fa-graduation-cap fa-2x" /> Education</a>
                                 </li>
-                                <li>
-                                    <a href="#research" class="badge badge-pill badge-secondary nav-link" data-tag="research">Research</a>
+                                <li class="cv-section m-3">
+                                    <a href="#research" class="nav-link" data-tag="research"><i class="fa fa-book fa-2x" /> Research</a>
                                 </li>
-                                <li>
-                                    <a href="#work" class="badge badge-pill badge-secondary nav-link" data-tag="work">Work</a>
+                                <li class="cv-section m-3">
+                                    <a href="#work" class="nav-link" data-tag="work"><i class="fa fa-cogs fa-2x" /> Work</a>
                                 </li>
-                                <li>
-                                    <a href="#projects" class="badge badge-pill badge-secondary nav-link" data-tag="projects">Projects</a>
+                                <li class="cv-section m-3">
+                                    <a href="#projects" class="nav-link" data-tag="projects"><i class="fa fa-code-fork fa-2x" /> Projects</a>
                                 </li>
                             </ul>
                         </nav>
